@@ -1,27 +1,30 @@
 body {
     font-family: "Raleway";
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header {
-    height: 800px;
+   /* height: 800px; */
     background-image: url('../img/hero-image.png');
     background-size: cover;
 }
 
 #work {
-    height: 1450px;
+   /* height: 1450px; */
     padding: 10px 180px;
-    border-width: 1px;;
+    border-width: 1px;
 }
 
 #about {
-    height: 650px;
+  /*  height: 650px; */
     background-color:#087e8b;
     box-sizing: border-box;
 }
 
 #contact {
-    height: 400px;
+  /*  height: 400px; */
     background-color: #095156;
 }
 
@@ -35,13 +38,11 @@ header {
 .half-width {
     width: 600px;
     height: auto;
-    float: left;
 }
 
 .third-width {
     width: 400px;
     height: auto;
-    float: left;
 }
 
 h1{
