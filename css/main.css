@@ -1,0 +1,122 @@
+body {
+    font-family: "Raleway";
+}
+
+header {
+    height: 800px;
+    background-image: url('../img/hero-image.png');
+    background-size: cover;
+}
+
+#work {
+    height: 1450px;
+    padding: 10px 180px;
+    border-width: 1px;;
+}
+
+#about {
+    height: 650px;
+    background-color:#087e8b;
+    box-sizing: border-box;
+}
+
+#contact {
+    height: 400px;
+    background-color: #095156;
+}
+
+.full-width {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    height: auto;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    height: auto;
+    float: left;
+}
+
+h1{
+    color: #bdbf09;
+    font-size: 60px;
+}
+
+h2 {
+    text-align: center;
+    color: #bdbf09;
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 25px;
+    color:#2a9d8f;
+}
+p {
+    color: #071E22;
+}
+
+#intro {
+    text-align: justify;
+    font-size: 25px;
+}
+
+.introduction{
+    padding: 350px 250px;
+}
+
+.websites {
+    margin-top: 60px;
+}
+
+#work p {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+#about img {
+    margin-left: 50px;
+    margin-bottom: 100px;
+    padding-top: 10px;
+    padding-right: 10px;
+} 
+
+#about .half-width{
+    margin-left: 130px;
+    margin-bottom: 20px;
+}
+
+#about p{
+    font-size: 19px;
+    color: white;
+    padding-top: 40px;
+}
+
+.third-width {
+    text-align: center;
+}
+
+.third-width p {
+    color: white;
+}
+
+.icons {
+    background: rgba(0, 0, 0, .2);
+    border: 3px solid transparent;
+}
+
+.cp {
+    text-align: center;
+    color: white;
+}
+
+.title{
+    font-weight:bold;
+}
