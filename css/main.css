@@ -4,12 +4,14 @@ html {
 
 body {
     font-family: "Raleway";
-    font-size: 1em;
+    font-size: 0.9em;
     width: 100%;
 }
 
 header {
     background-image: url('../img/hero-image.png');
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -17,14 +19,8 @@ header {
     width: 100%;
 }
 
-#work {
-    padding: 10px 180px;
-    border-width: 1px;
-}
-
 #about {
     background-color:#087e8b;
-    box-sizing: border-box;
 }
 
 #contact {
@@ -32,27 +28,26 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row wrap; 
+    flex-flow: column wrap; 
 }
 
 .full-width {
-    width: 90%;
+    width: 100%;
     height: auto;
-    margin: 0 auto;
     overflow: auto;
     display: flex;
     justify-content: center;
     align-items: center;  
-	flex-flow: row wrap; 
+	flex-flow: column wrap; 
 }
 
 .half-width {
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     text-align: center;
 }
 
@@ -63,45 +58,76 @@ header {
 
 h1{
     color: #bdbf09;
-    font-size: 3.75em;
+    font-size: 3em;
+    text-align: center;
 }
 
 h2 {
     text-align: center;
     color: #bdbf09;
-    font-size: 2.25em;
+    font-size: 1.875em;
 }
 
 h3 {
-    font-size: 1.5625em;
+    font-size: 1,125em;
     color:#2a9d8f;
 }
+
+h4 {
+    color: #bdbf09;
+    font-size: 1,125em;
+}
+
 p {
     color: #071E22;
 }
 
 #intro {
-    text-align: justify;
-    font-size: 1.5625em;
-}
-
-.introduction{
-    padding: 350px 250px;
+    text-align: center;
+    font-size: 1.45em;
+    width: 100%;
 }
 
 .websites {
-    margin-top: 60px;
+    margin-top: 1em;
 }
 
 #work p {
     font-size: 1.125em;
     line-height: 24px;
+    width: 90%;
+}
+
+#work img:hover {
+    opacity: 0.5;
+}
+
+
+#about .half-width img {
+    width: 90%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#about img {
+    background: #1abc9c;
+}
+
+#about img:hover {
+    opacity: .5;
+}
+
+#about .half-width p{
+    width: 90%;
 }
 
 #about p{
     font-size: 1.1875em;
     color: white;
-    margin: 1em 5em;
 }
 
 .third-width {
@@ -124,4 +150,52 @@ p {
 
 .title{
     font-weight:bold;
+}
+
+@media all and (min-width:768px) {
+    .full-width {
+        width: 100%;
+        margin: 40px 0;
+    }
+
+    .introduction {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #intro {
+        width: 80%;
+        align-self: center;
+    }
+
+    header {
+        background-blend-mode:normal;
+    }
+
+    h3 {
+        font-size: 1.65em;
+    }
+
+    h4 {
+        font-size: 1.34em;
+    }
+
+    footer .third-width{
+        flex-direction: row;
+
+    }
+
+
+
+   
+
+
+
+ 
+}
+ 
+@media all and (min-width:1200px) {
+    /* Desktop styles here */
+ 
 }
