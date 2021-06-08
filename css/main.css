@@ -167,6 +167,7 @@ p {
     #intro {
         width: 80%;
         align-self: center;
+        line-height: 1.5em;
     }
 
     header {
@@ -181,10 +182,23 @@ p {
         font-size: 1.34em;
     }
 
-    footer .third-width{
-        flex-direction: row;
-
+    footer .full-width {
+        margin: 20px 0;
     }
+
+    .three-contacts {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        margin: 0 0 1em 0;
+    }
+
+    .cp {
+        margin: 1em 0;
+    }
+
+
 
 
 
